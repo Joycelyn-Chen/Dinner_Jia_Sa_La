@@ -99,13 +99,14 @@ def query_veggie():
 
 
 if __name__ == "__main__":
+    # init fridge if not already existed
     if fridge_status() == 'empty':
         init_fridge()
+    
+    if ready4dinner():
+        main = query_main()
+        protein = query_protein()
+        veggie = query_veggie()
+        print(f"Your dinner choice: {main} with {', '.join(protein)} and {', '.join(veggie)}")
     else:
-        if ready4dinner():
-            main = query_main()
-            protein = query_protein()
-            veggie = query_veggie()
-            print(f"Your dinner choice: {main} with {', '.join(protein)} and {', '.join(veggie)}")
-        else:
-            print("Goodbye!")
+        print("Goodbye!")
