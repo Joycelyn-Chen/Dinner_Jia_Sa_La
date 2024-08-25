@@ -5,14 +5,6 @@
 #+------------------------------------
 
 
-# Init fridge
-# food storage file:
-# store food entries in a json file with the following schema
-# {main: {}, protein: {}, veggie: {}}
-# within each category stored the food detail: {food: quantity, unit} 
-
-
-
 import json
 
 
