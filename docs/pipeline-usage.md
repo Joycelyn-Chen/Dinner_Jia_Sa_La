@@ -29,5 +29,5 @@ curl -X POST 'https://api.instill.tech/v1beta/users/joycelyn/pipelines/dinner-ji
 ```
 
 ## Demo
-![Dinner Jia Sa demo](imgs/pipeline-demo.png?raw=true)
+![Dinner Jia Sa demo](../imgs/pipeline-demo.png?raw=true)
 - Or [try it for yourself](https://instill.tech/joycelyn/pipelines/dinner-jia-sa/playground). 
