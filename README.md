@@ -21,3 +21,4 @@
 - [ ] Improve RAG pipeline
 - [ ] Store fridge data
 - [ ] Improve fridge update
+- [ ] 
